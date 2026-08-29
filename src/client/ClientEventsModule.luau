@@ -1,7 +1,7 @@
 -- RemoteEvents, BindableEvents, BindableFunctions, etc. (yes, functions too)
 
 export type Events = {
-	FireDialogueEvent: (string) -> (),
+	FireDialogueFunction: (string) -> (),
 }
 
 local events = {} :: Events

@@ -3,7 +3,7 @@
 -- Phase out the BindableEvents/BindableFunctions on the server
 -- RemoteEvents/RemoteFunctions are allowed
 export type Events = {
-	FireRemoteDialogueEvent: (string) -> (),
+	FireRemoteDialogueFunction: (string) -> (),
 }
 
 local events = {} :: Events

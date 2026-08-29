@@ -7,8 +7,8 @@ local module = {}
 -- Font and sfx of characters (soon colors)
 module.characterStyles = {
 	["You"] = {
-		Sfx = "blip",
-		Box = "e7Box",
+		Sfx = "blip_high",
+		Box = "DefaultBox",
 	},
 }
 
