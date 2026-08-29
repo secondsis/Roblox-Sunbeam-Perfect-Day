@@ -384,14 +384,14 @@ local function setFirstPerson()
 	fpv = true
 
 	player:SetAttribute("FirstPerson", true)
-	eventsModule.FireResetMouseIcon()
+	-- eventsModule.FireResetMouseIcon()
 	camFX.setFirstPerson()
 end
 
 local function setThirdPerson()
 	fpv = false
 	player:SetAttribute("FirstPerson", false)
-	eventsModule.FireResetMouseIcon()
+	-- eventsModule.FireResetMouseIcon()
 	camFX.setThirdPerson()
 end
 
@@ -437,5 +437,10 @@ eventsModule.ConnectPauseCameraEffects(pauseCameraEffects)
 eventsModule.ConnectRemotePauseCameraEffects(pauseCameraEffects)
 eventsModule.ConnectResumeCameraEffects(resumeCameraEffects)
 eventsModule.ConnectRemoteResumeCameraEffects(resumeCameraEffects)
+
+task.wait(3)
+
+setThirdPerson()
+startBobbing()
 
 return {}

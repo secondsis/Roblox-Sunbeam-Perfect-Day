@@ -10,6 +10,10 @@ module.characterStyles = {
 		Sfx = "blip_high",
 		Box = "DefaultBox",
 	},
+	["Maxwell"] = {
+		Sfx = "omori",
+		Box = "DefaultBox",
+	},
 }
 
 module.NewDay = {
@@ -27,6 +31,58 @@ module.SomethingRuinedIt = {
 		Name = "You",
 		Text = {
 			"Bruh.",
+			"Where are my friends?",
+		},
+	},
+}
+
+module.FoundMaxwell = {
+	{
+		Name = "You",
+		Text = {
+			"Hello, kitty!",
+		},
+	},
+	{
+		Name = "Maxwell",
+		Text = {
+			"mreeooow",
+		},
+	},
+}
+
+module.FoundFrog = {
+	{
+		Name = "You",
+		Text = {
+			"Ribbit!",
+		},
+	},
+}
+
+module.FoundSquirrel = {
+	{
+		Name = "You",
+		Text = {
+			"Hello squirrl!!!!",
+		},
+	},
+}
+
+module.FoundAlready = {
+	{
+		Name = "You",
+		Text = {
+			"I found this animal already.",
+		},
+	},
+}
+
+module.FoundAll = {
+	{
+		Name = "You",
+		Text = {
+			"I found all the animals!",
 		},
 	},
 }
